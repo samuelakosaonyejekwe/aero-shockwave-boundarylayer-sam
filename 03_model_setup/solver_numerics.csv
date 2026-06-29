@@ -1,0 +1,11 @@
+setting,value
+governing_equations,compressible RANS (Favre-averaged)
+turbulence_model,k-omega SST (UniSTAR-coupled)
+transition_model,USTC unified shock-transition closure (gamma_tilde transport)
+convective_scheme,"AUSM+-up, 3rd-order MUSCL, van Albada limiter"
+shock_capture,Ducros-sensor hybrid + adaptive refinement
+time_integration,"implicit LU-SGS, dual time-stepping"
+CFL,ramped 1 -> 50
+convergence_criterion,"density residual < 1e-6, force coeff < 1e-5"
+flux_jacobian,exact analytical
+calibration_layer,ML regime response-surface (auto-tuned)

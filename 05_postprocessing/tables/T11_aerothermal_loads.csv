@@ -1,0 +1,9 @@
+quantity,value
+peak_wall_heat_flux_kW_m2,892.6534955420967
+peak_heat_flux_location_x_m,0.5934223706176962
+peak_Stanton_number,0.0082751692803458
+mean_wall_heat_flux_kW_m2,151.4806802443792
+integrated_heat_load_kW,44.98610608945316
+peak_wall_pressure_kPa,29.83640134903649
+wall_pressure_rise_ratio_p3_p1,5.4496705600168935
+adiabatic_wall_temp_K,838.0236565386301

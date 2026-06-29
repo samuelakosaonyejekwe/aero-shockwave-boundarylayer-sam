@@ -1,0 +1,13 @@
+quantity,value
+incoming_BL_thickness_delta0_mm,2.270743160063745
+separation_onset_x_m,0.458
+reattachment_x_m,0.598
+inviscid_impingement_x_m,0.55
+interaction/bubble_length_mm,139.99999999999997
+interaction_length_over_delta0,61.653824378830166
+upstream_influence_length_mm,92.00000000000003
+transition_onset_x_m,0.452
+transition_onset_x_over_L,0.452
+transition_mechanism,shock-induced bypass (USTC)
+min_skin_friction_Cf,-0.0008471046232903
+separation_bubble_height_mm,1.7220498260661337

@@ -1,0 +1,4 @@
+benchmark,unit,RMSE,MAE,NRMSE_pct,R2
+V1 Schuelein M5 skin friction (real data),Cf,0.00025,0.00016,3.44,0.99
+V2 Settles M2.95 ramp pressure (real data),p/p0,0.08771,0.07072,3.3,0.992
+V3 Horvath M6 cone heating (real data),h/href,0.00133,0.00107,4.29,0.9847

@@ -1,0 +1,27 @@
+filename,title,caption
+01_geometry.png,Case geometry,"Impinging-shock SWBLI configuration: forebody-ramp shock generator, internal cowl wall, incident and reflected shocks."
+02_mesh.png,Computational mesh,Wall-normal-clustered structured grid (y+≈0.7) with Ducros-sensor adaptive refinement banded around the captured shock.
+03_convergence.png,Convergence history,Density/energy residuals fall below 1e-6; drag and separation location reach steady values.
+04_grid_independence.png,Grid independence,Key metrics asymptote with mesh refinement; fine-grid GCI < 2%.
+05_wall_pressure.png,Wall pressure,"Free-interaction pressure rise to the separation plateau, then the reattachment compression to p/p∞ ≈ 5.45."
+06_skin_friction.png,Skin friction,Cf drops below zero inside the separation bubble and recovers to turbulent levels after reattachment.
+07_heat_transfer.png,Heat transfer,"Aerothermal load peaks at reattachment (q_w ≈ 0.9 MW/m²), the design-driving heat load for cowl structure."
+08_bl_thickness.png,BL thickness,"δ, δ* and θ growth; strong thickening through the interaction as the shear layer lifts off."
+09_shape_factor.png,Shape factor,"H rises sharply at separation, then drops to the turbulent value after transition/reattachment."
+10_transition.png,Transition prediction,"The shock-bypass source drives N across N_crit at the interaction, setting the intermittency ramp 0→1 (shock-induced transition)."
+11_edge_conditions.png,Edge conditions,Edge Mach drops 4.0→2.74 and edge temperature rises across the two-shock compression.
+12_cp.png,Pressure coefficient,Surface Cp signature of the SWBLI.
+13_dashboard.png,Surface dashboard,Overview of all surface predictions used for the design decision.
+14_re_theta.png,Re_theta,Re_θ used by the transition correlation; jumps through the interaction.
+15_velocity_profiles.png,Velocity profiles,"Laminar, separated (reversed near-wall flow, u<0) and reattached turbulent velocity profiles."
+16_temperature_profiles.png,Temperature profiles,Near-wall viscous heating peak (T→T_aw) with the cooled-wall condition T_w=470 K; the design heat-load driver.
+17_pressure_contour.png,Pressure contour,"2-D static-pressure field; dashed lines = shocks, solid = BL edge."
+18_temperature_contour.png,Temperature contour,Temperature field showing the hot viscous boundary layer and the post-shock temperature rise.
+19_mach_contour.png,Mach contour,Mach field: deceleration 4.0→2.74 through the two-shock compression; low-momentum boundary layer at the wall.
+20_velocity_vectors.png,Velocity vectors,Velocity vectors over the speed field; flow turns toward the wall behind the incident shock and realigns behind the reflected shock.
+21_3d_wall_pressure.png,3-D wall pressure,Spanwise-extruded wall-pressure surface; the ridge marks the reattachment compression.
+22_3d_pressure_field.png,3-D pressure field,Pressure as a height field reveals the incident & reflected shock fronts as steep ramps.
+23_3d_temperature_field.png,3-D temperature field,Temperature height field: hot near-wall layer ridge plus post-shock temperature steps.
+24_3d_vectors.png,3-D velocity vectors,Velocity vectors on three spanwise planes showing the shock-induced flow deflection and near-wall retardation.
+29_intake_performance.png,Intake performance,"Predicted total-pressure recovery, KE efficiency and mass capture, with the MIL-E-5008B reference."
+30_aerothermal.png,Aerothermal load,Wall heat-flux distribution; the reattachment peak sizes the thermal-protection / cooling requirement.

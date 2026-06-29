@@ -1,0 +1,8 @@
+coefficient,calibrated_value,role
+a0,0.02745552291237627,natural amplification slope
+a_M,0.085,compressibility amplification factor
+a_shock,0.9199999999999999,shock-bypass augmentation gain (USTC novelty)
+gamma_k,4.6,intermittency ramp constant
+gamma_exp,1.85,intermittency exponent
+N_crit,7.066953501917729,amplification threshold at transition onset
+F_plateau,4.22,free-interaction plateau constant

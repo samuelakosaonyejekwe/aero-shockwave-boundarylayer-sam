@@ -1,0 +1,17 @@
+filename,title,source_stage,source_file,n_rows,n_cols
+T01_freestream.csv,"Freestream conditions (Mach 4, 20 km ISA)",03_model_setup,freestream_conditions.csv,11,3
+T02_geometry.csv,Case geometry parameters,01_geometry,geometry_parameters.csv,8,2
+T03_mesh_quality.csv,Mesh quality metrics,02_mesh,mesh_quality_metrics.csv,17,3
+T04_grid_independence.csv,Grid-independence study,02_mesh,grid_independence_study.csv,3,5
+T05_boundary_conditions.csv,Boundary conditions,03_model_setup,boundary_conditions.csv,6,3
+T06_solver_numerics.csv,Solver numerics,03_model_setup,solver_numerics.csv,10,2
+T07_material_properties.csv,Material properties,03_model_setup,material_properties.csv,6,2
+T08_calibration.csv,ML regime-calibrated coefficients,03_model_setup,calibration_coefficients.csv,7,3
+T09_prediction_summary.csv,Prediction summary,04_solution,prediction_summary.csv,12,2
+T10_interaction_metrics.csv,SWBLI interaction metrics,04_solution,interaction_metrics.csv,12,2
+T11_aerothermal_loads.csv,Aerothermal loads,04_solution,aerothermal_loads.csv,8,2
+T12_intake_performance.csv,Supersonic-intake performance,04_solution,intake_performance.csv,9,2
+T13_force_coefficients.csv,Force coefficients,04_solution,forces_coefficients.csv,4,2
+T14_spanwise.csv,3-D spanwise distributions,07_3D_solution,spanwise_distributions.csv,60,5
+T15_validation_metrics.csv,Validation error metrics,06_validation,validation_metrics.csv,3,6
+T16_transition_reynolds.csv,Transition-Reynolds comparison,06_validation,transition_reynolds_comparison.csv,1,4

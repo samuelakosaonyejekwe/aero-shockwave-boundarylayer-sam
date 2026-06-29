@@ -1,0 +1,5 @@
+quantity,value
+skin_friction_drag_coeff_Cd_f,0.0021061904539498
+wave/pressure_drag_coeff_Cd_p,0.0306332372267535
+total_drag_coeff_Cd,0.0327394276807034
+mean_skin_friction_Cf,0.0021303528517735

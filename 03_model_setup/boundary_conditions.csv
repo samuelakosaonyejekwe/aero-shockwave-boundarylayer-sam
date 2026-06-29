@@ -1,0 +1,7 @@
+boundary,type,specification
+inflow,supersonic_inlet,"M=4.0 fixed total p/T, fixed flow angle"
+outflow,supersonic_outlet,1st-order extrapolation (M>1)
+wall,no-slip isothermal,Tw = 470.0 K (cooled cowl)
+shock_generator,inviscid_wedge,10.0 deg deflection
+farfield_top,characteristic,Riemann invariants
+spanwise,periodic,2.5D mean-flow assumption

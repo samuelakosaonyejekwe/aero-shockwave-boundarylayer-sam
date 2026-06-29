@@ -1,0 +1,10 @@
+quantity,value
+total_pressure_recovery_inviscid,0.8828127732665827
+total_pressure_recovery_actual,0.8554455772953186
+MIL-E-5008B_reference_recovery,0.6694973414649834
+kinetic_energy_efficiency,0.982
+mass_capture_ratio,0.963
+distortion_index_DC60,0.082
+overall_static_pressure_ratio,5.4496705600168935
+throat_Mach_number,2.7357316665076485
+unstart_margin_pct,14.5

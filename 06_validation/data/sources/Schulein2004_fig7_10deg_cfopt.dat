@@ -1,0 +1,58 @@
+# Shock-Wave Boundary Layer Interaction Data
+# Shock generator at 10 degrees.
+#
+# This data was digitized from figure 7 of:
+#   "Optical Skin Friction Measurements in Short-Duration Facilities"
+#   AIAA-2004-2115
+#   Erich Schulein
+#   June 2004
+#
+# The original experiment is described in:
+#   "Documentation of Two-Dimensional Impinging Shock / 
+#    Turbulent Boundary Layer Interaction Flow"
+#   Schulein, E., Krogmann, P. & Stanewsky, E. 
+#   DLR Rep. DLR IB 223-96 A 49
+#   October 1996 
+#
+# Note:  This skin friction was obtained using an optical technique.
+# 
+Variables="x(mm)","Cf"
+Zone T="Schulein (2004) [optical]", F="POINT"
+ 273.980363    0.001334
+ 277.945619    0.001334
+ 286.064955    0.001261
+ 292.862538    0.001279
+ 299.848943    0.001297
+ 305.135952    0.001334
+ 307.968278    0.001279
+ 310.989426    0.001316
+ 314.954683    0.001297
+ 320.241692    0.001242
+ 324.395770    0.001132
+ 326.095166    0.001095
+ 329.493958    0.000874
+ 330.626888    0.000634
+ 330.626888    0.000579
+ 333.836858   -0.000011
+ 338.368580   -0.000379
+ 341.578550   -0.000471
+ 342.333837   -0.000489
+ 343.089124   -0.000600
+ 345.921450    0.000008
+ 348.376133    0.000505
+ 354.796073    0.002753
+ 358.572508    0.003729
+ 360.083082    0.004097
+ 369.901813    0.005516
+ 371.978852    0.005553
+ 378.776435    0.005663
+ 383.685801    0.005608
+ 384.252266    0.006050
+ 389.916918    0.006345
+ 396.336858    0.006621
+ 405.777946    0.006492
+ 419.373112    0.005939
+ 426.548338    0.005718
+ 433.723565    0.005829
+ 443.353474    0.005645
+ 454.493958    0.005829

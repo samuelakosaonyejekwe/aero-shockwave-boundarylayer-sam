@@ -1,0 +1,12 @@
+quantity,value,unit
+freestream_Mach,4.0,-
+static_temperature,216.65,K
+static_pressure,5474.9,Pa
+density,0.08803592799783788,kg/m^3
+velocity,1180.2720737185982,m/s
+speed_of_sound,295.06801842964956,m/s
+dynamic_viscosity,1.4215474148823518e-05,Pa.s
+unit_Reynolds_number,7309383.156125586,1/m
+total_temperature,909.9299999999998,K
+total_pressure,831282.6332197471,Pa
+altitude_ISA,20000.0,m

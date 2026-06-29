@@ -1,0 +1,7 @@
+property,value
+gas,air (calorically perfect)
+gamma,1.4
+R_specific_J_kgK,287.05
+Prandtl_number,0.72
+viscosity_law,"Sutherland (1.716e-5, 110.4 K)"
+thermal_conductivity,k = mu*cp/Pr

@@ -1,0 +1,9 @@
+parameter,value
+plate_length_m,1.0
+plate_span_m,0.3
+duct_height_m,0.15
+generator_deflection_deg,10.0
+incident_shock_angle_deg,22.2341456881471
+reflected_shock_angle_deg,25.537416159187867
+inviscid_impingement_x_m,0.55
+generator_LE_x_m,0.1830614694777956

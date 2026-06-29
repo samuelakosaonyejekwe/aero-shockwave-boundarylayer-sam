@@ -1,0 +1,7 @@
+point,x_m,y_m,description
+wall_leading_edge,0.0,0.0,internal cowl / 2nd-ramp wall start
+wall_trailing_edge,1.0,0.0,wall end (engine-face station)
+generator_leading_edge,0.1830614694777956,0.15,forebody-ramp shock generator LE
+generator_trailing_edge,0.65,0.15,shock generator TE
+inviscid_impingement,0.55,0.0,nominal incident-shock foot on wall
+reflected_shock_exit,0.8639537451943212,0.15,reflected shock exits duct

@@ -1,0 +1,13 @@
+predicted_quantity,value
+Predicted transition onset,0.452 m (x/L = 0.45)
+Transition mechanism,shock-induced bypass
+Separation onset,0.458 m
+Reattachment,0.598 m
+Separation-bubble length,140 mm (62 delta0)
+Peak wall pressure,29.8 kPa (p/p_inf = 5.45)
+Peak wall heat flux,893 kW/m^2 at reattachment
+Integrated heat load (panel),45.0 kW
+Intake total-pressure recovery,0.855
+Inlet distortion DC60,0.082 (acceptable < 0.10)
+Unstart margin,14.5 %
+Total drag coefficient,0.0327

@@ -1,0 +1,11 @@
+# Editable Word sources — distribute the PDF report instead
+*.docx
+
+# Python caches
+__pycache__/
+*.py[cod]
+*.egg-info/
+
+# OS / editor cruft
+.DS_Store
+Thumbs.db

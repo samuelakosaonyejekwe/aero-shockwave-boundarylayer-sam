@@ -1,0 +1,5 @@
+filename,title,caption
+V1_schulein_M5_skin_friction.png,V1 — Mach-5 impinging-shock skin friction,"Real digitized optical skin friction (Schuelein, DLR; NASA WIND archive): reverse flow (Cf<0) between the measured separation and reattachment, then recovery."
+V2_settles_M2p95_pressure.png,V2 — Mach-2.95 compression-ramp wall pressure,"Real digitized Settles (1975) ramp pressure (AGARD-AG-280, Fig. 3.22): upstream rise, separation plateau, and reattachment compression to the inviscid 20° wedge level."
+V3_horvath_M6_cone_heating.png,V3 — Mach-6 cone boundary-layer transition heating,"Real digitized natural-transition heating (Horvath et al., AIAA-2002-2743, Fig. 4b): laminar floor, transition rise near Re_x ~ 4.3e6, and turbulent recovery."
+V0_validation_summary.png,Validation summary — NRMSE and R²,Accuracy per benchmark quantity. All three are assessed against REAL measured data digitized from the cited source figures (Schülein Cf; Settles ramp pressure; Horvath cone heating).

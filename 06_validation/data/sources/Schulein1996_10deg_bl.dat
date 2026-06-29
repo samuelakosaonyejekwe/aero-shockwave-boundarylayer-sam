@@ -1,0 +1,48 @@
+# SHOCK / BOUNDARY - LAYER INTERACTION AT 10 DEGREE DEFLECTION ANGLE
+#
+# Reference:
+#   "Documentation of Two-Dimensional Impinging Shock/Turbulent Boundary Layer Interaction Flow"
+#   Schulein, E. & Krogmann, P. & Stanewsky, E.
+#   DLR Report DLR IB 223-96 A 49
+#   October 1996
+#
+# Shock generator: 
+#   x_gen =  23.0 mm
+#   y gen = 115.0 mm
+#
+# Separation:
+#  'S' = 334 ± 1 mm   Section #101
+#  'R' = 345 ± 1 mm   Section #102
+#
+# Variables:
+#   SecNo    = measurement section number
+#   x        = axial    coordinate
+#   z        = spanwise coordinate
+#   Me       = Mach number at edge of boundary layer
+#   Pwall    = pressure at wall
+#   delta    = boundary layer thickness where U/Uedge=0.995
+#   deltas   = boundary layer displacement thickness
+#   theta    = boundary layer momentum     thickness
+#   Cf       = skin friction coefficient
+#   H        = shape factor, H=delta*/theta
+#   deltasin = transformed "incompressible" displacement thickness
+#   thetain  = transformed "incompressible" momentum     thickness
+#   Hin      = transformed "incompressible" shape factor
+#   n        = exponent in power law, U/Udelta=(y/delta)**(1/n)
+#   Pi       = Cole's law of the wake parameter
+#   Mtau     = friction Mach number, Mtau=utau/awall
+#   betaq    = wall heat transfer parameter, betaq=qwall/(rhowall*Twall*utau*Cp)
+#
+Variables="SecNo","x(mm)","z(mm)","Me","Pwall(Pa)","delta(mm)","deltas(mm)","theta(mm)","Cf","H","deltasin(mm)","thetain(mm)","Hin","n","Pi","Mtau","betaq"
+Zone T="Schulein, et al. (1996)", F="POINT"
+#Sec   x   z    Me Pwall delta deltas theta       Cf    H deltasin thetain   Hin     n    Pi  Mtau  betaq
+#No.  mm  mm          Pa    mm     mm    mm                     mm      mm
+   2 266  25     0     0     0      0     0 0.001410    0        0       0     0     0     0     0      0
+   3 296  25     0     0     0      0     0 0.001295    0        0       0     0     0     0     0      0
+   4 316  25     0     0     0      0     0 0.001295    0        0       0     0     0     0     0      0
+   7 376  25 3.263 33109 2.651  0.900 0.175 0.005162 5.14    0.407   0.312 1.302  6.73 0.717 0.091 -0.013
+   8 396  25 3.287 33237 3.364  0.953 0.192 0.006084 4.95    0.407   0.331 1.230 10.26 0.163 0.090 -0.013
+   9 426  25 3.275 33004 4.466  1.263 0.267 0.005346 4.73    0.560   0.446 1.256  9.30 0.363 0.087 -0.012
+  10 449  25 3.281 33170 4.837  1.289 0.264 0.005393 4.88    0.550   0.443 1.242 10.26 0.303 0.087 -0.012
+ 101 334  25     0     0     0      0     0 0.000000    0        0       0     0     0     0     0      0
+ 102 345  25     0     0     0      0     0 0.000000    0        0       0     0     0     0     0      0

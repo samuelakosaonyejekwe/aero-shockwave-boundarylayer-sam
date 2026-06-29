@@ -1,0 +1,4 @@
+grid,cells_million,x_separation_m,peak_St,p3_p1
+coarse,1.2,0.471,0.00271,5.38
+medium,4.8,0.463,0.00254,5.43
+fine,10.6,0.4585,0.002475,5.448

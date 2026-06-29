@@ -1,0 +1,7 @@
+filename,title,caption
+3D_01_mach_cutplanes.png,3-D Mach cut-planes,Mach number on five spanwise planes; the interaction weakens toward the finite-span generator edges.
+3D_02_shock_isosurface.png,3-D shock iso-surface,Iso-pressure surface tracing the reflected-shock sheet across the span.
+3D_03_heatflux_footprint.png,3-D heat-flux footprint,Wall heat-flux footprint over the panel: reattachment ridge plus elevated corner heating near the sidewalls.
+3D_04_separation_lines.png,3-D separation topology,Separation and reattachment lines bow across the span; the bubble is longest in the core and shrinks toward the edges.
+3D_05_streamlines.png,3-D streaklines,Near-wall streaklines deflect spanwise toward the centre behind the shock-impingement line — the signature of corner-vortex cross-flow.
+3D_06_span_distributions.png,Spanwise distributions,Separation length and peak heat flux vary across the span; corner heating spikes near the sidewalls.

@@ -1,0 +1,6 @@
+filename,title,caption
+DWG3_front_view.png,Front view,"Inflow-facing cross-section: wall plate, shock generator, duct height."
+DWG2_plan_view.png,Plan view,Top view of the cowl wall with spanwise shock-impingement line.
+DWG1_side_elevation.png,Side elevation,Orthographic side view with shock geometry and principal dimensions.
+DWG4_isometric.png,Isometric view,"Isometric assembly: cowl wall, shock generator, incident & reflected shock planes."
+DWG5_section_AA.png,Sectional view A–A,"Mid-span section showing the boundary-layer growth, the separation bubble and the impinging/reflected shocks."

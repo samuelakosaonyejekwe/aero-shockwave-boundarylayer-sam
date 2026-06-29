@@ -1,0 +1,18 @@
+metric,value,unit
+topology,structured multi-block (C-H),
+cells_streamwise_Nx,600,count
+cells_wall_normal_Ny,220,count
+cells_spanwise_Nz,80,count
+total_nodes,10560000,count
+first_cell_height_m,3.497e-06,m
+target_y_plus,0.7,-
+wall_normal_growth_ratio,1.07,-
+shock_band_refinement,3x (adaptive Ducros sensor),
+max_aspect_ratio,1850,-
+min_orthogonal_quality,0.62,-
+max_skewness,0.38,-
+max_equiangle_skew,0.31,-
+mean_cell_volume_m3,3.1e-10,m^3
+GCI_fine_medium_pct,1.8,%
+GCI_medium_coarse_pct,4.6,%
+observed_order_p,1.94,-
