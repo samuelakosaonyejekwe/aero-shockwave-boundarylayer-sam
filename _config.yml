@@ -1,0 +1,4 @@
+theme: jekyll-theme-cayman
+title: "UniSTAR-CFD — Shock / Boundary-Layer Transition"
+description: "Mach-4 supersonic-intake shock-wave / boundary-layer interaction & laminar–turbulent transition, validated against three real experimental benchmarks."
+author: Akosa Samuel Onyejekwe
