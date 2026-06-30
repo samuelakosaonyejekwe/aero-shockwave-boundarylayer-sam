@@ -109,5 +109,8 @@ anywhere** — and labels are kept clear of the data.
 
 ## 8. License & attribution
 
-© Akosa Samuel Onyejekwe. Independent research case study. Experimental benchmark data remains the
-property of the original authors / institutions cited above and in the provenance record.
+© 2026 Akosa Samuel Onyejekwe. **All rights reserved** — this repository is provided for viewing
+and reference only; no use, copying, modification, or redistribution is permitted without the
+author's prior written consent. See [`LICENSE`](LICENSE) for the full terms. Experimental benchmark
+data remains the property of the original authors / institutions cited above and in the provenance
+record.
