@@ -9,3 +9,9 @@ __pycache__/
 # OS / editor cruft
 .DS_Store
 Thumbs.db
+
+# Removed from the public repo (kept locally)
+docs/equations/
+build_docx.py
+case_config.py
+run_all.py

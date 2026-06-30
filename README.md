@@ -62,8 +62,6 @@ The project is organised as a staged pipeline; each stage writes data consumed b
 | 05 | [`05_postprocessing/`](05_postprocessing) | All report figures + consolidated result tables |
 | 06 | [`06_validation/`](06_validation) | Validation against public experimental benchmarks |
 | 07 | [`07_3D_solution/`](07_3D_solution) | Genuine 3-D (finite-span) SWBLI solution & figures |
-| — | [`case_config.py`](case_config.py) | Shared constants for all stages |
-| — | [`run_all.py`](run_all.py) | Master runner: executes every stage and builds the report |
 
 Shared plotting style (colour-blind-safe palette, no pure black) is defined in
 [`05_postprocessing/plot_style.py`](05_postprocessing/plot_style.py).
@@ -88,18 +86,13 @@ Measured transition Reynolds number (V3): **4.33 × 10⁶** vs `UniSTAR-CFD` **4
 > [`06_validation/data/sources/DATA_PROVENANCE.md`](06_validation/data/sources/DATA_PROVENANCE.md).
 > No numerical-reference or mismatched-condition data is presented as measured.
 
-## 5. Reproducing the results
+## 5. Contents
 
-Requirements: Python 3.10+, with `numpy`, `pandas`, `matplotlib`, and `python-docx`.
-
-```bash
-pip install numpy pandas matplotlib python-docx
-python run_all.py
-```
-
-`run_all.py` runs every stage in order and regenerates all solution data, figures, the
-consolidated tables, the validation results, and the report. The committed
-`aero_shockwave_boundarylayer_all.pdf` is the exported PDF of that report.
+Each stage directory contains its analysis code and the data, figures, and tables it produces,
+built on the `UniSTAR-CFD` core in [`00_solver/`](00_solver). Stage scripts are written for
+Python 3.10+ (`numpy`, `pandas`, `matplotlib`). The authoritative deliverable is the complete
+report, `aero_shockwave_boundarylayer_all.pdf`, which collects the full analysis, every figure
+and table, the engineering drawings, and the validation results.
 
 ## 6. Key outputs
 
